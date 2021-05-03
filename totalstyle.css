@@ -1,0 +1,269 @@
+
+
+body{
+
+  background-color: #eaf2df;
+
+	/*font-family: 'Roboto', sans-serif;*/
+
+  font-family: 'DM Sans', sans-serif;
+
+  color: #6666ff;
+
+     /*font-family: 'CirrusCumulus';
+     src: url(2.fonts/CirrusCumulus.woff);
+     /*src: url('/2.font/Helvetica-Textbook-LT-Roman');*/
+   
+}
+
+/* unvisited link */
+a:link {
+  color: #6666ff;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #6666ff;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #6666ff;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+    /*background-color: #eaf2df;
+  opacity: 50%;*/
+  position: fixed;
+  z-index: 3;
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+  /*white-space: nowrap;*/
+}
+
+li {
+  
+  overflow: hidden;
+  display: table-cell;
+  
+  padding: 0px;
+  text-overflow: ellipsis;
+
+  border-bottom: 4px solid #6666ff;
+  border-right: 4px solid #6666ff;
+}
+
+li a {
+ 
+  
+  color: #6666ff;
+  text-decoration: none;
+  font-size: 5vw;
+  /*font-size: 50pt;*/
+}
+
+.without{
+
+  color: #6666ff;
+  text-decoration: none;
+
+}
+
+/*전면 이미지*/
+.images {
+  display : block;
+  margin : auto;
+  margin-bottom: 45px;
+  width: 90%;
+  
+}
+
+
+/*절반 병렬 이미지*/
+.images2 {
+  float: left;
+  margin-bottom: 10px;
+  width: 50%;
+  
+}
+
+/*1/3 병렬 이미지*/
+.images3 {
+  float: left;
+  margin-bottom: 10px;
+  width: 33.33%;
+  
+}
+
+/*1/4 병렬 이미지*/
+.images4 {
+  float: left;
+  margin-bottom: 10px;
+  width: 25%;
+  
+}
+
+
+
+/*섬네일 이미지들*/
+/*.thumnail {
+  float: left;
+  margin : none;
+  width: 33.33%;
+
+}*/
+
+/*섬네일 이미지 제목*/
+
+.thumnailtitle {
+  float: left;
+  
+  line-height: 0.1;
+  margin-top: 0;
+  margin-bottom: 5pt;
+  margin-left: 10pt;
+  font-weight:normal;
+}
+
+/* thumnailtitle on small screen */
+@media only screen and (max-width: 800px)  {
+  .description {
+    font-size: 5vw;
+    margin-top: 10px;
+    max-width: 80vw;
+    position: relative;
+  }
+}
+
+
+/*격자 정렬*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*작업 설명글*/
+.description {
+  font-size: 2.1vw;
+  margin : 40px;
+  max-width: 45vw;
+  position: relative;
+  left: 7vw;
+  font-weight:normal;
+}
+
+/* description on middle screen */
+@media only screen and (max-width: 1240px)  {
+  .description {
+    font-size: 3vw;
+    margin-top: 10px;
+    max-width: 80vw;
+    position: relative;
+  }
+}
+
+
+/* description on small screen */
+@media only screen and (max-width: 750px) {
+  .description {
+    font-size: 4.5vw;
+    margin-top: 10px;
+    max-width: 80vw;
+    position: relative;
+
+  }
+}
+
+.about-text {
+  font-size: 2.5vw;
+  margin : 40px;
+  max-width: 65vw;
+  position: relative;
+  left: 7vw;
+  font-weight:normal;
+  line-height: 1.17;
+}
+
+/* about-text on small screen */
+@media only screen and (max-width: 800px) {
+  .about-text {
+    font-size: 5vw;
+    max-width: 80vw;
+    margin : 3vw;
+  }
+}
+
+
+
+.homeimages{
+  position: relative;
+  z-index: 0;
+
+}
+
+.homestatement{
+
+  position: fixed;
+  /*text-align: center;*/
+  z-index: 5;
+  margin-left: 25%; 
+  margin-top: 50vh;
+}
+
+
+.masonry { /* Masonry container */
+  column-count: 4;
+  column-gap: 1em;
+}
+
+.item { /* Masonry bricks or child elements */
+  /*background-color: blue;*/
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
+
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 4;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px){
+  .masonry {
+    column-count: 1;
+  }
+}
+
+/*.img {
+display : inline-block;
+
+}*/
+

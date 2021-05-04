@@ -85,6 +85,16 @@ li a {
 
 }
 
+/*전면 작은 중앙 이미지*/
+.centerimages {
+  display : block;
+  margin : auto;
+  margin-bottom: 25px;
+  width: 50%;
+  
+}
+
+
 /*전면 이미지*/
 .images {
   display : block;

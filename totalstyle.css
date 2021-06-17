@@ -1,30 +1,58 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
 body{
 
-  background-color: #eaf2df;
+   padding: 0px;
+   margin : 0px;
 
-	/*font-family: 'Roboto', sans-serif;*/
+  /*background-color: #eaf2df;*/
+  background-color: black;
+
+
 
   font-family: 'DM Sans', sans-serif;
+ 
+  
 
-  color: #6666ff;
-
+  /*color: #6666ff;*/
+  color: white;
      /*font-family: 'CirrusCumulus';
      src: url(2.fonts/CirrusCumulus.woff);
      /*src: url('/2.font/Helvetica-Textbook-LT-Roman');*/
-   
+  
 }
+
+
+#dragdiv {
+  position: absolute;
+  z-index: 9;
+  /*background-color: #f1f1f1;*/
+ /* border: 1px solid #d3d3d3;*/
+ /* text-align: center;*/
+}
+
+/*#draghead {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}*/
+
 
 /* unvisited link */
 a:link {
-  color: #6666ff;
+  color: white;
+/*  #6666ff;*/
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #6666ff;
+  color: white;
+/*  #6666ff;*/
   text-decoration: none;
 }
 
@@ -36,11 +64,81 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: #6666ff;
+  color: white;
+/*  #6666ff;*/
+}
+
+
+/*
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}*/
+
+
+
+/*홈 메뉴 이미지 호버*/
+/*.indeximage:hover .{
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}*/
+
+
+/*about 화면 배경그림들*/
+.aboutimg1 {
+  position: fixed;
+  right: -7vw;
+  bottom: 10vh;
+  overflow: hidden;
+  z-index: 3;
+}
+.aboutimg2 {
+  position: fixed;
+  top: 5vh;
+  left: 45vw;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.aboutimg3 {
+  position: fixed;
+  left: 1vw;
+  bottom: -7vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.aboutimg4 {
+  position: fixed;
+  right: 10vw;
+  top: -10vh;
+  overflow: hidden;
+  z-index: -3;
+}
+
+.aboutimg5 {
+  position: fixed;
+  right: -2vw;
+  bottom: -20vh;
+  overflow: hidden;
+  z-index: 3;
 }
 
 
 ul {
+
   list-style-type: none;
   margin: 0px;
   padding: 0;
@@ -54,25 +152,66 @@ ul {
   border-collapse: collapse;
   table-layout: fixed;
   text-align: center;
+  border-bottom: 2.2px solid white;
+  /*#6666ff;*/
+
   /*white-space: nowrap;*/
 }
 
+@media only screen and (max-width: 980px)  {
+  ul {
+    
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+    /*background-color: #eaf2df;
+  opacity: 50%;*/
+  position: fixed;
+  z-index: 3;
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+  border-bottom: 1px solid white;
+
+  }
+}
+
+
+
 li {
   
+
   overflow: hidden;
   display: table-cell;
   
   padding: 0px;
   text-overflow: ellipsis;
 
-  border-bottom: 4px solid #6666ff;
-  border-right: 4px solid #6666ff;
+  /*border-bottom: 4px solid #6666ff;*/
+  border-right: 2.2px solid white;
+  /*#6666ff;*/
 }
 
-li a {
- 
+@media only screen and (max-width: 980px)  {
+  li {
+    
+  overflow: hidden;
+  display: table-cell;
   
-  color: #6666ff;
+  padding: 0px;
+  text-overflow: ellipsis;
+  border-right: 1px solid white;
+
+  }
+}
+
+
+li a {
+  font-weight: 500;
+  color: white;
   text-decoration: none;
   font-size: 5vw;
   /*font-size: 50pt;*/
@@ -80,7 +219,7 @@ li a {
 
 .without{
 
-  color: #6666ff;
+  color: white;
   text-decoration: none;
 
 }
@@ -167,6 +306,7 @@ li a {
   content: "";
   clear: both;
   display: table;
+
 }
 
 /*작업 설명글*/
@@ -225,6 +365,56 @@ li a {
 .homeimages{
   position: relative;
   z-index: 0;
+  top: 7vw;
+  left: 16vw;
+}
+
+.homeimages2{
+  position: relative;
+  z-index: 0;
+  top: 40vw;
+  left: 46vw;
+}
+
+.homeimages3{
+  position: relative;
+  z-index: 0;
+
+}
+
+.homeimages4{
+  position: relative;
+  z-index: 0;
+
+}
+
+.homeimages5{
+  position: relative;
+  z-index: 0;
+
+}
+
+.homeimages6{
+  position: relative;
+  z-index: 0;
+
+}
+
+.homeimages7{
+  position: relative;
+  z-index: 0;
+
+}
+
+.homeimages8{
+  position: relative;
+  z-index: 0;
+
+}
+
+.homeimages9{
+  position: relative;
+  z-index: 0;
 
 }
 
@@ -241,6 +431,7 @@ li a {
 .masonry { /* Masonry container */
   column-count: 4;
   column-gap: 0.8em;
+  padding: 1.4em;
 }
 
 .item { /* Masonry bricks or child elements */
@@ -272,8 +463,30 @@ li a {
   }
 }
 
+
+
+
+  
+
+
+/*about에 있는 학력부분 인덴트*/
+.indent{
+  text-indent: -0.8em;
+  margin-left: 1.5em;
+ 
+}
+
+/*poster-housing 부분에 있는 인덴트*/
+.indent2{
+  text-indent: -0.9em;
+  margin-left: 0.8em;
+}
+
+
 /*.img {
 display : inline-block;
 
 }*/
+
+
 

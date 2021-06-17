@@ -331,7 +331,7 @@ li a {
 
 
 /* description on small screen */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 980px) {
   .description {
     font-size: 4.5vw;
     margin-top: 10px;
@@ -346,7 +346,7 @@ li a {
   height:20vh
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 980px) {
   .blank{
   height:5vh
 }
@@ -366,7 +366,7 @@ li a {
 }
 
 /* about-text on small screen */
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 980px) {
   .about-text {
     font-size: 6vw;
     margin : 3vw;

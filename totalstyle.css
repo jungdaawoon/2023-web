@@ -341,6 +341,20 @@ li a {
   }
 }
 
+/*about 상단에 있는 공백 사이즈*/
+.blank{
+  height:20vh
+}
+
+@media only screen and (max-width: 750px) {
+  .blank{
+  height:5vh
+}
+
+}
+
+
+
 .about-text {
   font-size: 2.5vw;
   margin : 40px;
@@ -352,11 +366,13 @@ li a {
 }
 
 /* about-text on small screen */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 750px) {
   .about-text {
-    font-size: 5vw;
-    max-width: 80vw;
+    font-size: 6vw;
     margin : 3vw;
+    max-width: 97vw;
+    position: static;
+    
   }
 }
 

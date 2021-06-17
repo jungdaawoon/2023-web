@@ -380,6 +380,8 @@ li a {
 
 .homeimages{
   position: relative;
+  
+  max-width: 10vw;
   z-index: 0;
   top: 7vw;
   left: 16vw;
@@ -387,9 +389,10 @@ li a {
 
 .homeimages2{
   position: relative;
+  max-width: 10vw;
   z-index: 0;
   top: 40vw;
-  left: 46vw;
+  left: 65vw;
 }
 
 .homeimages3{
@@ -439,8 +442,8 @@ li a {
   position: fixed;
   /*text-align: center;*/
   z-index: 5;
-  margin-left: 25%; 
-  margin-top: 38vh;
+  margin-left: 30%; 
+  bottom: 3%;
 }
 
 

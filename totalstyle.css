@@ -389,53 +389,122 @@ li a {
 
 .homeimages2{
   position: relative;
-  max-width: 10vw;
+  max-width: 18vw;
   z-index: 0;
-  top: 40vw;
-  left: 65vw;
+  top: 2vw;
+  left: 5vw;
 }
 
 .homeimages3{
   position: relative;
+  max-width: 10vw;
   z-index: 0;
+  top: 20vw;
+  left: 65vw;
 
 }
 
 .homeimages4{
   position: relative;
+  max-width: 10vw;
   z-index: 0;
+  top: 0vw;
+  left: 45vw;
 
 }
 
 .homeimages5{
   position: relative;
+  max-width: 10vw;
   z-index: 0;
+  top: 40px;
+  left: 65vw;
 
 }
 
 .homeimages6{
   position: relative;
+  max-width: 10vw;
   z-index: 0;
+  top: 70vw;
+  left: 65vw;
 
 }
 
 .homeimages7{
   position: relative;
+  max-width: 10vw;
   z-index: 0;
+  top: 40vw;
+  left: 15vw;
 
 }
 
 .homeimages8{
   position: relative;
+  max-width: 10vw;
   z-index: 0;
+  top: 20vw;
+  left: 65vw;
 
 }
 
 .homeimages9{
   position: relative;
-  z-index: 0;
+  max-width: 10vw;
+  z-index: 3;
+  top: 0vw;
+  left: 55vw;
 
 }
+
+.homeimages10{
+  position: relative;
+  max-width: 10vw;
+  z-index: 3;
+  top: 13vw;
+  left: 48vw;
+
+}
+
+
+.homeimages11{
+  position: relative;
+  max-width: 10vw;
+  z-index: 0;
+  top: 40vw;
+  left: 65vw;
+
+}
+
+
+.homeimages12{
+  position: relative;
+  max-width: 10vw;
+  z-index: 0;
+  top: 40vw;
+  left: 65vw;
+
+}
+
+.homeimages13{
+  position: relative;
+  max-width: 10vw;
+  z-index: 0;
+  top: 40vw;
+  left: 65vw;
+
+}
+
+.homeimages14{
+  position: relative;
+  max-width: 10vw;
+  z-index: 0;
+  top: 40vw;
+  left: 65vw;
+
+}
+
 
 .homestatement{
 

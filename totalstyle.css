@@ -378,13 +378,24 @@ li a {
 
 
 
-.homeimages{
+/*.homeimages{
   position: relative;
   
   max-width: 10vw;
   z-index: 0;
   top: 7vw;
-  left: 16vw;
+  left: 30vw;
+}*/
+
+
+.homeimages111{
+  position: relative;
+  
+  /*max-width: 10vw;*/
+  z-index: -1;
+  margin: 0;
+  /*top: 7vw;
+  left: 30vw;*/
 }
 
 .homeimages2{
@@ -436,7 +447,7 @@ li a {
   max-width: 10vw;
   z-index: 0;
   top: 40vw;
-  left: 15vw;
+  left: 25vw;
 
 }
 

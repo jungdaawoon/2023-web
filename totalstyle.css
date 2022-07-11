@@ -577,8 +577,8 @@ li a {
 
 /*poster-housing 부분에 있는 인덴트*/
 .indent2{
-  text-indent: -0.9em;
-  margin-left: 0.8em;
+  text-indent: -100px;
+  /*margin-left: 0.8em;*/
 }
 
 

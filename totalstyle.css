@@ -385,6 +385,13 @@ padding: 0px 24px 0px 0px;
   padding: 5px;
   
 }
+}
+
+
+---
+
+
+
 
 .about-text{
   padding: 1.8vw 3vw;
@@ -392,7 +399,7 @@ padding: 0px 24px 0px 0px;
 
 /*about에 있는 학력부분 인덴트*/
 .indent{
-  text-indent: -0.8em;
+  text-indent: -0.7em;
   margin-left: 1.5em;
 }
 
@@ -409,7 +416,7 @@ padding: 0px 24px 0px 0px;
 
 
 
-}
+
 
 
 

@@ -6,7 +6,7 @@
 
 
 body{
-   font-size: 13pt;
+   font-size: 14pt;
    padding: 0px;
    margin : 0px;
 
@@ -37,6 +37,7 @@ height: auto;
 
 /*작업 설명글*/
 .description {
+  position: fixed;
   float: left;
   width: 24.5vw;
   padding: 0px 0vw 10px 1.5vw;
@@ -47,6 +48,8 @@ p{
   margin: 0px 0px 10px 0px;
 }
 
+
+
 p.title{
   margin: 0px 0px 20px 0px;
   /*font-weight: bold;*/
@@ -55,10 +58,27 @@ p.title{
   letter-spacing:-0.004em;
 }
 
+p.category{
+  margin: 7px 0px 7px 0px;
+  font-size: 12pt
+
+}
+
 .line {
   border-top: 1px solid #920aff;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 0px 0px;
 
+}
+
+
+
+/*category area*/
+.footer{
+	position: fixed;
+	bottom: 1vw;
+	float: left;
+  	width: 24.5vw;
+  	
 }
 
 
@@ -382,13 +402,16 @@ padding: 0px 24px 0px 0px;
   
 }
 
-.description{
+.description,.footer{
+  position: relative;
   float:left;
   width: 90vw;
   margin: 2vw 0px;
   padding: 5px;
   
 }
+
+
 
 
 .about-text{

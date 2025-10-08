@@ -384,7 +384,7 @@ text-align: center;
     gap: 15px;                    /* 기존 유지 */
     padding: 0.7vw 1.5vw;         /* 필요시 여백 유지/조정 */
   }
-}
+
 
 
 .left-menu, .right-menu { gap: 16px; }

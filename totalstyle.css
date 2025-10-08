@@ -370,7 +370,7 @@ text-align: center;
 
 
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1100px){
 
 .thumnail1, .thumnail2, .thumnail3, .thumnail4, .thumnail5, .thumnail6{ 
  width: 90vw;
